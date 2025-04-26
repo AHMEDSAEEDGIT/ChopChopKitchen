@@ -21,6 +21,7 @@ namespace ChopChopKitchen
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -37,14 +38,14 @@ namespace ChopChopKitchen
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+             
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Ingredient}/{action=Index}/{id?}");
             app.MapRazorPages();
 
             app.Run();

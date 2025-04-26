@@ -248,6 +248,10 @@ namespace ChopChopKitchen.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -269,6 +273,7 @@ namespace ChopChopKitchen.Data.Migrations
                             ProductId = 1,
                             CategoryId = 2,
                             Description = "A delicious beef taco",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Beef Taco",
                             Price = 2.50m,
                             Stock = 100
@@ -278,6 +283,7 @@ namespace ChopChopKitchen.Data.Migrations
                             ProductId = 2,
                             CategoryId = 2,
                             Description = "A delicious chicken taco",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Chicken Taco",
                             Price = 1.99m,
                             Stock = 101
@@ -287,6 +293,7 @@ namespace ChopChopKitchen.Data.Migrations
                             ProductId = 3,
                             CategoryId = 2,
                             Description = "A delicious fish taco",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Fish Taco",
                             Price = 3.99m,
                             Stock = 90

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "ChopChop Menu Items";
+}
+
+<h1>ChopChop Menu Items</h1>
+
+<div class="row">
+    
+    @foreach (var product in Model)
+    {
+        <div class="cold-md-4">
+            <form asp-action="delete" asp-controller="Product" method="post">
+                <input type="hidden" asp-action="@product.ProductId" asp-for="@product.ProductId"/>
+                <div class="card" style="width:18rem;">
+                    <img src="@Url.Content("~images"+product?.ImageUrl)" class="card-img-top fixed-image-height" alt="@product?.Description" />
+
+                </div>
+            </form>
+        </div>
+
+    }
+</div>
