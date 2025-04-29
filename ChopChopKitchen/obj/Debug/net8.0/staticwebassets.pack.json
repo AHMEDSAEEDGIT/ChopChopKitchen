@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\ChopChopKitchen.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\03b387e9-6dc2-415f-8d20-1159b3778e45_636.jpg",
+      "PackagePath": "staticwebassets\\Images\\03b387e9-6dc2-415f-8d20-1159b3778e45_636.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\a1d0306d-90db-45aa-902c-d45275506e26_636.webp",
+      "PackagePath": "staticwebassets\\Images\\a1d0306d-90db-45aa-902c-d45275506e26_636.webp"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\beeftacos.jpg",
+      "PackagePath": "staticwebassets\\Images\\beeftacos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\chickentacos.jpg",
+      "PackagePath": "staticwebassets\\Images\\chickentacos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\f3ca5e62-a17e-402a-a288-e965c39ee4ee_veggietacos.jpg",
+      "PackagePath": "staticwebassets\\Images\\f3ca5e62-a17e-402a-a288-e965c39ee4ee_veggietacos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\f82c72be-c192-4dac-933b-352cf480963b_636.jpg",
+      "PackagePath": "staticwebassets\\Images\\f82c72be-c192-4dac-933b-352cf480963b_636.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\Images\\fishtacos.jpg",
+      "PackagePath": "staticwebassets\\Images\\fishtacos.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\OneDrive\\Desktop\\Work Dir\\ChopChopKitchen\\ChopChopKitchen\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

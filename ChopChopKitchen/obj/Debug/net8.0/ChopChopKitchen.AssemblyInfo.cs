@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChopChopKitchen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ed39fadc65be12b6ff635103bdcdbeedc7e4e37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7303328e671b893d2d8d5920ce52b24e47ddd27a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChopChopKitchen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChopChopKitchen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
